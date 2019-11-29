@@ -1,112 +1,142 @@
 div.element1
 {
-	display: flex;
-	justify-content: flex-end;
-	flex-direction: row;
-	text-decorarion:none;
-	
+ display: flex;
+ justify-content: flex-end;
+ flex-direction: row;
+ text-decorarion:none;
 
-	
+
+
 }
 
-span.gauche
+.gauche
 {
-	display:flex;
+ display:flex;
  justify-content: flex-start;
-	align-content:stretch;
+ align-content:stretch;
 }
-span.droite
+.droite
 {
-	display:flex;
-	justify-content:flex-end;
-	align-items:baseline;
+ display:flex;
+ justify-content:flex-end;
+ align-items:baseline;
+ padding: 
 
-	
+
 }
 #conteneur
 {
-	font-family: arial,sans-serif;
-	
+ font-family: arial,sans-serif;
+
 
 }
-span.logo,img
+.logo,img
 {
-	width:400px;
-	height:110px;
-	display: flex;
-	justify-content: center;
-	align-self: center;
-	margin: 0 auto;
+ width:400px;
+ height:110px;
+ display: flex;
+ justify-content: center;
+ align-self: center;
+ margin: 0 auto;
 
 padding-top:99px;
 
 }
-span.rechercher
+.rechercher
 {
-	display: flex;
-	justify-content: center;
-	align-self: center;
-	padding-top:50px;
-	margin-top: 50px;
-	line-height:34px;
-	margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-self: center;
+ padding-top:50px;
+ margin-top: 50px;
+ line-height:34px;
+ margin: 0 auto;
 }
 .boutons
 {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content:center;
-	margin-top: -10px;
-	padding-top:-20px;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ justify-content:center;
+ margin-top: -10px;
+ padding-top:-20px;
 width:300px;
 height:118px;
 margin: 0 auto;
 
 }
-div.gauche
+.gauche
 {
-	display:flex;
-	justify-content:flex-start;
-	flex-direction:row;
+ display:flex;
+ justify-content:flex-start;
+ flex-direction:row;
+ padding: 10px;
 }
-div.droite
+.droite
 {
-	display:flex;
-	justify-content:flex-end;
-	align-content:flex-end;
-	align-items:;
-	
+ display:flex;
+ justify-content:flex-end;
+ align-content:flex-end;
+ align-items:;
+ padding: 10px;
+
 align-items:flex-end;
 
-	
-	font-size: small;
-	color:#5f6368;
+
+ font-size: small;
+ color:#5f6368;
 }
 
-span.connexion
+.connexion
 {
-	border-bottom-color: #4285f4;
-	border-bottom-left-radius:2px;
-	border-bottom-right-radius:2px;
-	border-bottom-style:solid;
-	border-bottom-width:1px;
-	border-left-color:#4285f4;
-	border-left-style:solid;
-	border-left-width:1px;
-	border-right-color:#4285f4;
-	border-right-style:solid;
-	border-right-width:1px;
-	border-top-color:#4285f4;
-	border-top-left-radius:2px;
-	border-top-right-radius:2px;
-	border-top-style:solid;
-	border-top-width:1px;
-	box-shadow:0px 1px 0px rgba(0,0,0,0.15);
-	text-decoration:none;
-	cursor:default;
+ border-bottom-color: #4285f4;
+ border-bottom-left-radius:2px;
+ border-bottom-right-radius:2px;
+ border-bottom-style:solid;
+ border-bottom-width:1px;
+ border-left-color:#4285f4;
+ border-left-style:solid;
+ border-left-width:1px;
+ border-right-color:#4285f4;
+ border-right-style:solid;
+ border-right-width:1px;
+ border-top-color:#4285f4;
+ border-top-left-radius:2px;
+ border-top-right-radius:2px;
+ border-top-style:solid;
+ border-top-width:1px;
+ box-shadow:0px 1px 0px rgba(0,0,0,0.15);
+ text-decoration:none;
+ cursor:default;
 
-	
+
+}
+
+footer {
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+body {
+ width: 100%;
+ height: 100%;
+}
+
+a {
+ padding: 5px;
+}
+
+input {
+ border: 1px solid #dbdbdb ;
+ height: 40px;
+ width: 300px;
+ border-radius: 50px;
+ padding: 0px 10px;
 }
 
 

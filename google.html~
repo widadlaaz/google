@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+
+
+	<body>
+		<div id="conteneur">
+		<!--haut de la page--!>
+
+    <div class="element1">
+ 	<header>
+	<nav>
+		<a href="https://mail.google.com/mail/?tab=wm&ogbl"data-pid="23"style="text-decoration:none;color:#000;">Gmail</a>
+		<a href="https://www.google.fr/imghp?hl=fr&tab=wi&ogbl"style="text-decoration:none;color:#000;">Images</a>
+		<a href="https://www.google.fr/intl/fr/about/products?tab=wh"style="text-decoration:none;color:#000;">Apps</a>
+		<span class=connexion>	<a href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/"style="text-decoration:none;color:#000;">Connexion </a></nav></span> </div>								
+	</header>
+
+
+
+	<center>
+	<!--logo--!>
+	 
+	 <div class="element2">
+	 <span class=logo>
+
+	<img src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png"></div>
+			 
+	<!--barre de recherche--!>
+	<span class="rechercher">
+
+<form action="/search" id="searchthis" method="get">
+<input id="search" type="text">
+
+</form></span>
+
+
+<span class=boutons>
+<!--boutons rechercher et j'ai de la chance--!>
+	<input type="submit" value="Recherche Google">
+	<input type="submit" value="J'ai de la chance">
+	</center> </span> </div>
+
+
+<div class="element3">
+			<footer> 
+				<nav>
+				<span class=gauche>
+						<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjTpPLByYrmAhWF3OAKHeMfALYQkdQCCBM&url=https%3A%2F%2Fwww.google.com%2Fintl%2Ffr_fr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw1aYP8_R8Sd__IBmabb3bt4"style="text-decoration:none;color:#000;">Publicit&eacute</a> 
+					<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjTpPLByYrmAhWF3OAKHeMfALYQktQCCBQ&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K"style="text-decoration:none;color:#000;">Entreprise</a>
+					<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjTpPLByYrmAhWF3OAKHeMfALYQkNQCCBU&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-FR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw2FXL3-LVIL6HoBq0oweElA"style="text-decoration:none;color:#000;">&Agrave propos</a>
+					<a href="https://google.com/search/howsearchworks/?fg=1"style="text-decoration:none;color:#000;">Comment fonctionne la recherche Google ?</a>
+					</span>
+					
+					<span class=droite>
+						<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjTpPLByYrmAhWF3OAKHeMfALYQ9NMDCA4&url=https%3A%2F%2Fsupport.google.com%2Fwebsearch%3Fp%3Dfr_consumer_info%26hl%3Dfr%26fg%3D1&usg=AOvVaw2Hh0QSd76Waw_vDJR_K2KN"style="text-decoration:none;color:#000;">Info consommateurs</a>
+						<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjTpPLByYrmAhWF3OAKHeMfALYQ8awCCA8&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Ffg%3D1&usg=AOvVaw12z8DS9cd-g0Aokit_wxri"style="text-decoration:none;color:#000;">Confidentialit&eacute</a>
+						<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjTpPLByYrmAhWF3OAKHeMfALYQ8qwCCBA&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Ffg%3D1&usg=AOvVaw3sEM_N0elgYQx8WbCXpj3n"style="text-decoration:none;color:#000;">Conditions</a>
+						<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjTpPLByYrmAhWF3OAKHeMfALYQzq0CCBE&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Dfr&usg=AOvVaw1Z0Yi9EwVWnjnl-U5CFOv3"style="text-decoration:none;color:#000;">Param&egravetres</a>
+						</span>
+				</nav>
+
